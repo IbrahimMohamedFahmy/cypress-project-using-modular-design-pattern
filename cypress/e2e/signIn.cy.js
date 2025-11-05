@@ -1,4 +1,4 @@
-/// <reference types = "cypress"/>
+/// <reference types="cypress" />
 
 // main test suit that include all test cases related to the sign in flow
 describe("sign in flow", function()
@@ -26,7 +26,8 @@ describe("sign in flow", function()
     {
         it("test", function()
         {
-            cy.visit("https://www.saucedemo.com/");
+            //cy.visit("https://www.saucedemo.com/");
+            cy.checkUrl("https://www.saucedemo.com/");
 
         });
     });
