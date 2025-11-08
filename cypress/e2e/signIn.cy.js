@@ -24,12 +24,31 @@ describe("sign in flow", function()
     // test suit for sign in flow happy scenarios
     context("happy scenarios", function()
     {
-        it("test", function()
+        it("verify that user can login with valid data'", function()
         {
-            //cy.visit("https://www.saucedemo.com/");
+            // step 1: verify that the actual base url match the expected url
             cy.checkUrl("https://www.saucedemo.com/");
 
+            // step 2: get the user name text filed and type a valid user name
+            cy.get('[data-test="username"]').type(userData.UserName);
+
+            // step 3: get the password text filed and type a valid password
+            cy.get('[data-test="password"]').type(userData.Password);
+
+            // step 4: verify that the login button is visible and click on it
+            cy.get('[data-test="login-button"]').should("be.visible").click();
+            
+            // step 5: verify that the user reach the home page
+            cy.checkUrl("https://www.saucedemo.com/inventory.html");
+
+            // step 6: check the logo's title
+            cy.xpath("//div[text()='Swag Labs']").should("contain", "Swag Labs");
+
+            // step 6: check the tap's title
+            cy.title().should("eq", "Swag Labs");
         });
+
+       
     });
 
     // test suit for sign in flow sad scenarios
