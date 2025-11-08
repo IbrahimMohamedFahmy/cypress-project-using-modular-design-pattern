@@ -1,4 +1,5 @@
 {
   "UserName": "standard_user",
+  "InvalidUserName": "standard",
   "Password": "secret_sauce"
 }
