@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 // main test suit that include all test cases related to the sign in flow
-describe("sign in flow", function()
+describe("Sign in flow", function()
 {
     // create global variable to get data from json file
     let userData;
