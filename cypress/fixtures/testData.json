@@ -1,5 +1,8 @@
 {
   "UserName": "standard_user",
   "InvalidUserName": "standard",
-  "Password": "secret_sauce"
+  "Password": "secret_sauce",
+  "FirstName": "Ibrahim",
+  "LastName": "Omran",
+  "PostNumber": "12345"
 }

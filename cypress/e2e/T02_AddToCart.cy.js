@@ -62,7 +62,7 @@ describe("Add to Cart Flow", function()
             // step 10: check the url of the cart page
             cy.checkUrl("https://www.saucedemo.com/cart.html");
 
-            // step 10: check the product name is match
+            // step 11: check the product name is match
             cy.get(".inventory_item_name").then((element)=>
                 {
                     let ProductName1 = element.text();
@@ -113,10 +113,11 @@ describe("Add to Cart Flow", function()
                     let ProductName1 = element.text();
                     expect(ProductName1).to.be.eq(ProductName);
                 });
-        });
+        });        
+    });
 
-        context("Sad Scenarios", function()
-        {
+    context("Sad Scenarios", function()
+    {
             it("should redirect unauthenticated user to login page", function()
             {
                 // step 1: user try to access products page during the url
@@ -138,9 +139,7 @@ describe("Add to Cart Flow", function()
                  cy.url().should("eq", "https://www.saucedemo.com/");
             });
               
-        });
     });
-
     
    
 });
