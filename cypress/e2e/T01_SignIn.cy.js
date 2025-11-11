@@ -21,7 +21,6 @@ describe("Sign in flow", function()
             });
     });
 
-    // test suit for sign in flow happy scenarios
     context("Happy Scenarios", function()
     {
         it("verify that user can login with valid data", function()
@@ -51,7 +50,6 @@ describe("Sign in flow", function()
        
     });
 
-    // test suit for sign in flow sad scenarios
     context("Sad Scenarios", function()
     {
         it("verify that user can not login with invalid data'", function()

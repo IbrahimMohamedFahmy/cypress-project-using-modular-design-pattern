@@ -24,7 +24,6 @@ describe("Add to Cart Flow", function()
             });
     });
 
-    // test suit for add to cart flow happy scenarios
     context("Happy Scenarios", function()
     {
         it("verify that user can add a product to his cart successfully from the add to cart page", function()
