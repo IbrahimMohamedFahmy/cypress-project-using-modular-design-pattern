@@ -108,7 +108,7 @@ describe("Checkout Flow", function()
             // step 22: verify that the finish button is visible 
             cy.get("#finish").should("be.visible").click();
 
-            // step 23: check tha successful message is showen
+            // step 23: check tha successful message is shown
             cy.xpath("//h2[text()='Thank you for your order!']").should("contain", "Thank you for your order!");
 
             // step 24: verify that the go back button is exist and redirect to the products page
