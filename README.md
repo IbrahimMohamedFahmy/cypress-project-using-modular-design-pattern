@@ -5,26 +5,24 @@ This project is a **Cypress end-to-end automation framework** built using the **
 It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) web application, including sign-in, add-to-cart, checkout, and sign-out functionalities.
 
 ---
-
 ## 🧱 Project Structure
 
 📦 project-root
 ├── cypress
-│ ├── e2e
-│ │ ├── T01_SignIn.cy.js # Test cases for Sign-In flow
-│ │ ├── T02_AddToCart.cy.js # Test cases for Add to Cart flow
-│ │ ├── T03_CheckOut.cy.js # Test cases for Checkout flow
-│ │ ├── T04_SignOut.cy.js # Test cases for Sign Out flow
-│ ├── fixtures
-│ │ └── testData.json # Contains test data (username, password, etc.)
-│ ├── reports # Contains test execution reports
-│ └── support
-│ ├── commands.js # Custom Cypress commands (openDemo, checkUrl, login, etc.)
-│ └── e2e.js # Cypress global configuration
-├── cypress.config.js # Main Cypress configuration file
-├── package.json # Project dependencies and scripts
-└── README.md # Project documentation
-
+│   ├── e2e
+│   │   ├── T01_SignIn.cy.js          # Test cases for Sign-In flow
+│   │   ├── T02_AddToCart.cy.js       # Test cases for Add to Cart flow
+│   │   ├── T03_CheckOut.cy.js        # Test cases for Checkout flow
+│   │   ├── T04_SignOut.cy.js         # Test cases for Sign Out flow
+│   ├── fixtures
+│   │   └── testData.json             # Contains test data (username, password, etc.)
+│   ├── reports                       # Contains test execution reports
+│   └── support
+│       ├── commands.js               # Custom Cypress commands (openDemo, checkUrl, login, etc.)
+│       └── e2e.js                    # Cypress global configuration
+├── cypress.config.js                 # Main Cypress configuration file
+├── package.json                      # Project dependencies and scripts
+└── README.md                         # Project documentation
 
 ---
 
@@ -32,7 +30,7 @@ It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) we
 
 1️⃣ Clone the repository
 ```bash
-git clone <repository-link>
+git clone https://github.com/IbrahimMohamedFahmy/cypress-project-using-modular-design-pattern
 cd <project-folder>
 
 2️⃣ Install dependencies
