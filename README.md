@@ -18,7 +18,7 @@ It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) we
 │   │   └── testData.json             # Contains test data (username, password, etc.)
 │   ├── reports                       # Contains test execution reports
 │   └── support
-│       ├── commands.js               # Custom Cypress commands (openDemo, checkUrl, login, etc.)
+│       ├── commands.js               # Custom Cypress commands (openDemo, checkUrl, login)
 │       └── e2e.js                    # Cypress global configuration
 ├── cypress.config.js                 # Main Cypress configuration file
 ├── package.json                      # Project dependencies and scripts
