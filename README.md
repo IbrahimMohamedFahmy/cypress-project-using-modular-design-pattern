@@ -6,6 +6,7 @@ It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) we
 
 ---
 ## 🧱 Project Structure
+``` 
 📦 project-root
 ├── cypress
 │   ├── e2e
@@ -22,6 +23,7 @@ It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) we
 ├── cypress.config.js                 # Main Cypress configuration file
 ├── package.json                      # Project dependencies and scripts
 └── README.md                         # Project documentation
+``` 
 ---
 
 ## ⚙️ Installation and Setup
