@@ -28,8 +28,8 @@ It covers complete test flows for the [SauceDemo](https://www.saucedemo.com/) we
 
 ## ⚙️ Installation and Setup
 
-1️⃣ Clone the repository
 ```bash
+1️⃣ Clone the repository
 git clone https://github.com/IbrahimMohamedFahmy/cypress-project-using-modular-design-pattern
 cd <project-folder>
 
